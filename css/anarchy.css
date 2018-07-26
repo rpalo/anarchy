@@ -1,0 +1,17 @@
+.site-title {
+  font-weight: bold; }
+
+.event {
+  position: relative;
+  padding: 10px; }
+  .event:not(:last-child):after {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    height: 2px;
+    width: 10%;
+    border-bottom: 1px solid #BBB; }
+
+.event__details {
+  color: #BBB; }
