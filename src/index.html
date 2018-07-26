@@ -1,0 +1,21 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+<div class="event-list">
+
+  {% for event in site.data.anarchy %}
+  <div class="event">
+    <p>{{ event["Timestamp"] }}</p>
+    <p><small>{{ event["Where are You?"] }}</small></p>
+    <p>{{ event["What happened?"] }}</p>
+    {% if event["Link to an image (Optional)"] %}
+      <img src="{{ event['Link to an image (Optional)'] }}" alt="{{ event['Image description for screen readers'] }}">
+    {% endif %}
+  </div>
+  {% endfor %}
+
+</div>

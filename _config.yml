@@ -1,0 +1,30 @@
+title: Things That Lead to ANARCHY
+description: >- # this means to ignore newlines until "baseurl:"
+  Society has rules.  Maybe some of them are unwritten -- or even
+  unspoken!  But they are there.  And they hold everything together.
+  Do you know what happens when people start ignoring these rules and
+  doing whatever they want?  ANARCHY.  Sheer.  Utter.  Anarchy.
+  This page documents sightings of anarchy in the wild.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://assertnotmagic.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+source: src
+timezone: America/Los_Angeles
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
