@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Do you know what happens when people start ignoring these rules and
   doing whatever they want?  ANARCHY.  Sheer.  Utter.  Anarchy.
   This page documents sightings of anarchy in the wild.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/anarchy" # the subpath of your site, e.g. /blog
 url: "https://assertnotmagic.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 source: src
